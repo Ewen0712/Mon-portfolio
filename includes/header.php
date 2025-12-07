@@ -20,6 +20,7 @@
     <!-- Navbar -->
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
+
             <a class="navbar-brand" href="index.php">BTS SIO SISR . Ewen COSTE</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -28,6 +29,9 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link <?php if($currentPage=='index.php'){echo 'active';} ?>" href="index.php">Accueil</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link <?php if($currentPage=='about.php'){echo 'active';} ?>" href="about.php">À propos</a>
                     </li>
