@@ -16,3 +16,142 @@ h1 {
     color: #0d6efd !important;
     font-weight: bold;
 }
+
+.mt-big {
+    margin-top: 6rem !important;
+}
+
+/*
+Parcours 
+*/
+
+.timeline-bubbles {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap; /* pour mobile */
+}
+
+.bubble-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    /* Pour l'animation */
+    opacity: 0.7;
+    transform: scale(1); /* petite taille au départ */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* smooth zoom + fade */
+}
+
+.bubble-item .bubble {
+    width: 120px;
+    height: 120px;
+    background-color: #0062ff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.bubble-item .bubble:hover {
+    transform: scale(1.1);
+}
+
+.bubble-item.active .bubble {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+}
+
+/* Bulles dévoilées */
+.bubble-item.active {
+    opacity: 1;
+    transform: scale(1); /* taille normale */
+}
+
+.bubble-description {
+    max-width: 700px;
+    margin: 1.5rem auto 0;
+    padding: 1.5rem 2rem;
+    background-color: #558fe5;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(1,0.5,0,0.2);
+
+    /* Centrer le texte */
+    display: flex;           /* active flexbox */
+    justify-content: center; /* centre horizontalement */
+    align-items: center;     /* centre verticalement */
+    text-align: center;      /* centre le texte multiline */
+    
+    /* Transition smooth */
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+/* Description visible */
+.bubble-description.active {
+    opacity: 1;
+    max-height: 500px;
+}
+
+/* Bulle spéciale verte et description verte */
+.bubble-item.special .bubble {
+    background-color: #28a745;
+}
+
+.bubble-description.special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #51b769;
+    color: white;
+    border-radius: 1rem;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+
+/* cacher les bulles suivantes au départ */
+.hidden {
+    opacity: 0.7;
+    transform: scale(1);
+    pointer-events: auto;
+}
+.hidden.active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s ease;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Colonne gauche & droite */
+.contact-left, .contact-right {
+    background: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Zones de texte */
+.contact-left h2,
+.contact-right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
