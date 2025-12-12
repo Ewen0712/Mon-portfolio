@@ -78,24 +78,25 @@ Parcours
 .bubble-description {
     max-width: 700px;
     margin: 1.5rem auto 0;
-    padding: 1.5rem 2rem;
+    padding: 2rem 2.5rem;           /* plus d'espace intérieur pour confort */
     background-color: #558fe5;
     color: white;
     border-radius: 1rem;
     font-size: 1rem;
-    box-shadow: 0 4px 10px rgba(1,0.5,0,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* plus doux et plus profond */
 
     /* Centrer le texte */
-    display: flex;           /* active flexbox */
-    justify-content: center; /* centre horizontalement */
-    align-items: center;     /* centre verticalement */
-    text-align: center;      /* centre le texte multiline */
-    
+    display: flex;                  /* active flexbox */
+    flex-direction: column;         /* permet d'empiler texte + bouton */
+    justify-content: flex-start;    /* contenu en haut */
+    align-items: center;            /* centrer horizontalement */
+    text-align: center;             /* centrer le texte multilignes */
+
     /* Transition smooth */
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
+    transition: opacity 0.5s ease, max-height 0.5s ease, padding 0.5s ease;
 }
 
 /* Description visible */
@@ -111,16 +112,26 @@ Parcours
 
 .bubble-description.special {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;        /* empile le contenu verticalement */
+    justify-content: flex-start;   /* commence en haut */
+    align-items: center;           /* centre horizontalement */
     text-align: center;
+
     background-color: #51b769;
     color: white;
     border-radius: 1rem;
+
+    padding: 2rem 2.5rem;          /* espace intérieur généreux */
+    max-width: 700px;
+    margin: 1.5rem auto 0;         /* centre la bulle horizontalement */
+
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* effet plus profond */
+
+    transition: opacity 0.5s ease, max-height 0.5s ease, padding 0.5s ease;
 }
 
 
@@ -154,4 +165,8 @@ Parcours
 .contact-right h2 {
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+.contact-right {
+    margin-left: 1rem; /* ajoute un petit espace supplémentaire */
 }

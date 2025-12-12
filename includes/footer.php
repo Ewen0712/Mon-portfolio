@@ -1,5 +1,17 @@
-<footer class="bg-dark text-white text-center py-3 mt-5">
-    <p>© <?php echo date("Y"); ?> - Mon Portfolio</p>
+<footer class="bg-dark text-white py-3 mt-5">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- PARTIE GAUCHE -->
+        <p class="mb-0">
+            © <?php echo date("Y"); ?> Ewen COSTE - Mon Portfolio (STUDI)
+        </p>
+
+        <!-- PARTIE DROITE : BOUTON CONTACT -->
+        <a href="contact.php" class="btn btn-primary">
+            Contact
+        </a>
+
+    </div>
 </footer>
 
 <!-- Bootstrap JS -->
