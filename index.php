@@ -6,14 +6,15 @@
             <h1 class="mb-3 mt-3">Bienvenue sur mon Portfolio</h1>
             <p class="lead fs-3 fw-bold mt-5">
                 Ewen COSTE, 
-                étudiant en deuxième année BTS Système Informatique aux organisations (SIO) 
+                Alternant en deuxième année BTS Système Informatique aux organisations (SIO) 
                 spécialité Solutions d'infrastructure, systèmes et réseaux (SISR).
             </p>
             <p class="mt-5 fs-5 mb-5">
-                Ce site a été conçu pour mettre en valeur mes compétences techniques, 
-                présenter les projets que j’ai réalisés et témoigner de ma motivation pour le BTS SIO, 
-                option SISR, ainsi que pour mon avenir professionnel. 
-                Il reflète mon parcours, mon engagement et ma progression dans le domaine des systèmes, réseaux et infrastructures informatiques.
+                Ce site a pour objectif de valoriser mes compétences techniques, 
+                de présenter les projets que j’ai réalisés et de mettre en avant ma motivation pour le BTS SIO, 
+                option SISR. Il illustre mon parcours, 
+                mon implication et l’évolution de mes connaissances dans les domaines des systèmes, 
+                des réseaux et des infrastructures informatiques.
             </p>
         </div>
         <div class="mt-big text-center">

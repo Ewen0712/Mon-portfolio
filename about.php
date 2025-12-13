@@ -21,11 +21,11 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqBTS">
                     <div class="accordion-body fs-6">
-                        Le BTS SIO (Services Informatiques aux Organisations) est un diplôme Bac+2 qui forme des techniciens capables de concevoir, 
-                        déployer et maintenir des solutions informatiques pour les entreprises. 
-                        Il m’a permis de consolider mes compétences en informatique tout en développant de nouvelles aptitudes en administration des systèmes et réseaux, 
-                        ainsi qu’en support aux utilisateurs. J’ai choisi la spécialité SISR (Solutions d’Infrastructure, Systèmes et Réseaux) 
-                        pour me concentrer sur l’infrastructure et la sécurité des systèmes.
+                        Le BTS SIO (Services Informatiques aux Organisations) est un diplôme de niveau Bac+2 
+                        qui forme des techniciens capables de concevoir, 
+                        déployer et maintenir des solutions informatiques au sein des entreprises. 
+                        Cette formation m’a permis de renforcer mes compétences en informatique et de développer 
+                        des connaissances en administration des systèmes et réseaux, ainsi qu’en support aux utilisateurs.
                     </div>
                 </div>
             </div>
@@ -41,21 +41,21 @@
                     <div class="accordion-body fs-6">
                         Le BTS SIO se compose de deux options distinctes :
                     <br><br>
-                        Option SISR (Solutions d’Infrastructure, Systèmes et Réseaux), orientée vers l’administration des systèmes, des réseaux et la cybersécurité.
+                        L’option SISR (Solutions d’Infrastructure, Systèmes et Réseaux) est orientée vers l’administration, la gestion et la sécurisation des infrastructures informatiques. Elle forme des techniciens capables d’installer, configurer et maintenir des serveurs, des réseaux et des équipements informatiques, tout en assurant la continuité et la sécurité des services. Cette option met l’accent sur la cybersécurité, la gestion des incidents, la virtualisation et l’exploitation des systèmes et réseaux.
                     <br><br>
-                        Option SLAM (Solutions Logicielles et Applications Métiers), centrée sur la conception et le développement d’applications.
+                        L’option SLAM (Solutions Logicielles et Applications Métiers) est centrée sur la conception, le développement et la maintenance d’applications informatiques. Elle prépare les étudiants à analyser les besoins des utilisateurs, à développer des solutions logicielles adaptées (applications web, mobiles ou métiers) et à gérer des bases de données. Cette option met davantage l’accent sur la programmation, le développement applicatif et la gestion du cycle de vie des applications.
                     <br><br>
                         Les deux options partagent un socle commun de compétences, comprenant : 
-                            Bloc 1 : Support et mise à disposition de services informatiques
-                            Bloc 3 : Cybersécurité des services informatiques
-                            Bloc 4 : Culture Générale et Expression
-                            Bloc 5 : Anglais (LV1)
-                            Bloc 6 : Mathématiques pour l’informatique
-                            Bloc 7 : Culture économique, juridique et managériale
+                            <br> - Bloc 1 : Support et mise à disposition de services informatiques
+                            <br> - Bloc 3 : Cybersécurité des services informatiques
+                            <br> - Bloc 4 : Culture Générale et Expression
+                            <br> - Bloc 5 : Anglais (LV1)
+                            <br> - Bloc 6 : Mathématiques pour l’informatique
+                            <br> - Bloc 7 : Culture économique, juridique et managériale
                     <br><br>
-                        La principale différence entre les deux parcours réside dans le Bloc 2, qui est spécifique à chaque option :
-                            Bloc 2 – SISR : Administration des systèmes et des réseaux
-                            Bloc 2 – SLAM : Conception et développement d’applications
+                        La principale différence entre les deux parcours réside dans le bloc 2, spécifique à chaque option :
+                            <br> Bloc 2 – SISR : Administration des systèmes et des réseaux
+                            <br> Bloc 2 – SLAM : Conception et développement d’applications
                     </div>
                 </div>
             </div>
@@ -72,9 +72,9 @@
                         J’ai choisi l’option SISR car elle me prépare à des métiers en forte demande dans le secteur informatique, comme administrateur systèmes et réseaux, technicien support (helpdesk), ou encore administrateur sécurité. Cette spécialisation offre l’opportunité de travailler sur la conception, le déploiement, la maintenance et la sécurisation des infrastructures informatiques des entreprises. 
                     <br><br>
                         A l'échelle des études, après un BTS SIO SISR s’ouvrent des portes diverses et variées :
-                            Un bachelor Administration et Réseaux suivi d’un Master Systèmes et réseaux.
-                            Intégrer une licence informatique (en 2è ou 3è année) suivi d’un Master aussi
-                            Une école d’ingénieur « post-BTS » spécialisée dans l’administration systèmes, réseaux et sécurité.
+                            <br> - Un bachelor Administration et Réseaux suivi d’un Master systèmes et réseaux.
+                            <br> - Intégrer une licence informatique (en 2è ou 3è année) suivi d’un Master systèmes et réseaux aussi.
+                            <br> - Une école d’ingénieur, accessible après un BTS, spécialisée dans l’administration systèmes, réseaux et sécurité.
 
 
                     </div>
@@ -90,7 +90,7 @@
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqBTS">
                     <div class="accordion-body fs-6">
-                        Le BTS SIO peut être suivi en formation à distance grâce à des plateformes en ligne dédiées comme l’école STUDI le propose. Les cours, supports pédagogiques et travaux pratiques sont accessibles à tout moment, ce qui permet d’apprendre à son rythme. L’organisation personnelle, l’autonomie et la rigueur sont essentielles pour réussir, tout comme la mise en pratique régulière des connaissances à travers des projets, des travaux pratiques et des périodes en entreprise (stages ou alternance). Cela nécessite aussi un suivi continu de la part de l’organisme qui propose les contenus pédagogiques.
+                        Le BTS SIO peut être suivi en formation à distance grâce à des plateformes d’apprentissage en ligne, comme celles proposées par l’école STUDI. Les cours, les supports pédagogiques et les travaux pratiques sont accessibles en continu, ce qui permet d’organiser son apprentissage de manière flexible et d’avancer à son propre rythme. <br><br> Ce mode de formation demande cependant de l'autonomie, de l'organisation et de la rigueur. La réussite repose également sur la mise en pratique régulière des connaissances acquises, notamment à travers des projets, des travaux pratiques et des périodes en entreprise : en stage ou en alternance. Un accompagnement pédagogique et un suivi régulier de la part de l’organisme de formation sont également essentiels pour assurer la progression et la réussite de l’étudiant.
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqBTS">
                     <div class="accordion-body fs-6">
-                        Le BTS en alternance offre de nombreux avantages. Il permet avant tout d’acquérir une expérience professionnelle concrète tout en poursuivant ses études, ce qui facilite l’insertion sur le marché du travail. L’alternance permet également de mettre en pratique les connaissances théoriques vues en cours, de développer des compétences techniques et professionnelles, et de percevoir une rémunération pendant la formation.
+                        Le BTS en alternance présente de nombreux atouts. Il permet d’acquérir une expérience professionnelle significative tout en poursuivant ses études, facilitant ainsi l’insertion sur le marché du travail. L'alternance offre également l’opportunité de mettre en application les connaissances théoriques abordées en cours, de développer des compétences techniques et professionnelles, tout en bénéficiant d’une rémunération durant la formation.
                     <br><br>
-                        Cependant il ne faut pas uniquement se baser sur ces avantages, il faut s’attendre à avoir moins de temps pour les cours. En effet pour s’investir pleinement dans l’entreprise le rythme peut être plus ou moins exigeant.
+                        Toutefois, il est important de ne pas considérer uniquement ces avantages. L’alternance implique un rythme soutenu et laisse généralement moins de temps pour le travail personnel et les cours. Un investissement important en entreprise est donc nécessaire, ce qui demande une bonne organisation, de la rigueur et une réelle capacité d’adaptation.
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqBTS">
                     <div class="accordion-body fs-6">
-                        Faites d’abord un stage avant d’essayer de vous lancer dans une alternance. Vous y découvrirez le monde professionnel et la vie en entreprise. De plus tester ses compétences dans un contexte réel permet de savoir où se situer dans son avancement dans la formation.
+                        Réaliser un stage avant de s’engager dans une alternance permet de découvrir progressivement le monde professionnel et le fonctionnement de l’entreprise. Cette première expérience constitue un véritable atout pour le CV, en valorisant des compétences acquises sur le terrain. Elle offre également l’opportunité de mettre ses connaissances en pratique dans un contexte réel et d’évaluer son niveau ainsi que sa progression au cours de la formation.
                     </div>
                 </div>
             </div>
