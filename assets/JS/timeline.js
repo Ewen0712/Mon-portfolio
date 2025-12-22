@@ -32,7 +32,15 @@ const closeModal = document.getElementById('close-modal');
 function openModal(bubble) {
     modal.style.display = 'flex';
     modalTitle.textContent = bubble.querySelector('.bubble').textContent;
-    modalDescription.textContent = bubble.dataset.description;
+
+    // Titre différent selon la bulle
+    const modalHeader = bubble.dataset.modalTitle || "Compétences acquises";
+
+    // Ajouter le titre sous forme de <h5>
+    const h5 = modal.querySelector('h5');
+    h5.textContent = modalHeader;
+
+    // Contenu de la liste
     const skills = bubble.dataset.skills ? bubble.dataset.skills.split(',') : [];
     modalSkills.innerHTML = '';
     skills.forEach(skill => {
@@ -69,16 +77,16 @@ bubbles.forEach((bubble, index) => {
         setTimeout(() => {
             const descContainer = bubble.classList.contains('special') ? specialDescription : mainDescription;
 
-            // Ajouter la description
             descContainer.textContent = bubble.dataset.description;
 
-            // Ajouter le bouton "En savoir plus..."
-            const btn = document.createElement('button');
-            btn.textContent = "En savoir plus...";
-            btn.className = "btn btn-info mt-3";
-            descContainer.appendChild(btn);
+            if (bubble.dataset.hasModal === "true") {
+                const btn = document.createElement('button');
+                btn.textContent = "En savoir plus...";
+                btn.className = "btn btn-info mt-3";
+                descContainer.appendChild(btn);
 
-            btn.addEventListener('click', () => openModal(bubble));
+                btn.addEventListener('click', () => openModal(bubble));
+            }
 
             // Afficher la description
             descContainer.style.display = 'flex';

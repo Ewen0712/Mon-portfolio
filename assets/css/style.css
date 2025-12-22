@@ -110,6 +110,14 @@ Parcours
     background-color: #28a745;
 }
 
+.special-bubbles {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; /* centre les bulles horizontalement */
+    flex-wrap: wrap; /* si écran trop petit */
+}
+
+
 .bubble-description.special {
     display: flex;
     flex-direction: column;        /* empile le contenu verticalement */
